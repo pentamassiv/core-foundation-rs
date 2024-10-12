@@ -106,8 +106,8 @@ impl KeyCode {
     pub const NUMPAD_5: CGKeyCode = 0x57;
     pub const NUMPAD_6: CGKeyCode = 0x58;
     pub const NUMPAD_7: CGKeyCode = 0x59;
-    pub const NUMPAD_8: CGKeyCode = 0x61;
-    pub const NUMPAD_9: CGKeyCode = 0x62;
+    pub const NUMPAD_8: CGKeyCode = 0x5B;
+    pub const NUMPAD_9: CGKeyCode = 0x5C;
     pub const NUMPAD_MULTIPLY: CGKeyCode = 0x43;
     pub const NUMPAD_DIVIDE: CGKeyCode = 0x4B;
     pub const NUMPAD_PLUS: CGKeyCode = 0x45;
