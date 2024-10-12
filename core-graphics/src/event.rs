@@ -46,6 +46,7 @@ bitflags! {
 /// Key codes for keys that are independent of keyboard layout.
 ///
 /// [Ref](https://github.com/phracker/MacOSX-SDKs/blob/master/MacOSX10.13.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Events.h)
+/// [Ref](https://eastmanreference.com/complete-list-of-applescript-key-codes)
 #[repr(C)]
 pub struct KeyCode;
 impl KeyCode {
@@ -97,6 +98,25 @@ impl KeyCode {
     pub const RIGHT_ARROW: CGKeyCode = 0x7C;
     pub const DOWN_ARROW: CGKeyCode = 0x7D;
     pub const UP_ARROW: CGKeyCode = 0x7E;
+    pub const NUMPAD_0: CGKeyCode = 0x52;
+    pub const NUMPAD_1: CGKeyCode = 0x53;
+    pub const NUMPAD_2: CGKeyCode = 0x54;
+    pub const NUMPAD_3: CGKeyCode = 0x55;
+    pub const NUMPAD_4: CGKeyCode = 0x56;
+    pub const NUMPAD_5: CGKeyCode = 0x57;
+    pub const NUMPAD_6: CGKeyCode = 0x58;
+    pub const NUMPAD_7: CGKeyCode = 0x59;
+    pub const NUMPAD_8: CGKeyCode = 0x61;
+    pub const NUMPAD_9: CGKeyCode = 0x62;
+    pub const NUMPAD_MULTIPLY: CGKeyCode = 0x43;
+    pub const NUMPAD_DIVIDE: CGKeyCode = 0x4B;
+    pub const NUMPAD_PLUS: CGKeyCode = 0x45;
+    pub const NUMPAD_MINUS: CGKeyCode = 0x4E;
+    pub const NUMPAD_EQUAL: CGKeyCode = 0x51;
+    pub const NUMPAD_DECIMAL: CGKeyCode = 0x41;
+    pub const NUMPAD_CLEAR: CGKeyCode = 0x47;
+    pub const NUMPAD_ENTER: CGKeyCode = 0x4C;
+    pub const NUMPAD_COMMA: CGKeyCode = 0x5F; // (JIS layout)
 }
 
 #[repr(C)]
