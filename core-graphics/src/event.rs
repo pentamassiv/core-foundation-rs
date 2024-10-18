@@ -52,7 +52,6 @@ bitflags! {
 /// layouts may have the 'A' key label on a different physical key;
 /// in this case, pressing 'A' will generate a different virtual
 /// keycode.
-///
 /// [Ref](https://github.com/phracker/MacOSX-SDKs/blob/master/MacOSX10.13.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/Events.h#L197-L261)
 #[repr(C)]
 pub struct ANSIKeyCode;
